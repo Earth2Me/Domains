@@ -3,7 +3,7 @@ layout: page
 title: GoDaddy Promo Code List
 ---
 
-{% include namepros-credit-godaddy.md %}
+{% include namepros-credit-godaddy.html %}
 
 # Working Codes #
 
