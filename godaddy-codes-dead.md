@@ -3,7 +3,7 @@ layout: page
 title: List of Inactive GoDaddy Promo Codes
 ---
 
-{% include namepros-credit-godaddy.md %}
+{% include namepros-credit-godaddy.html %}
 
 # Inactive Codes #
 
