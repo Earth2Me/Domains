@@ -1,0 +1,8 @@
+---
+layout: page
+title: Working GoDaddy Code List
+---
+These promo codes are known to be working recently.  See the last GoDaddy promo code post for detailed test results.  Some codes may have beeen added since the last post.
+
+{% for code in site.data.godaddy %}
+* {{ code }}{% endfor %}
