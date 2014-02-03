@@ -12,9 +12,33 @@ body {
 
 header {
 	border-top: 5px solid black;
-	padding: .2em 2em;
+	font-size: 1.5em;
+	overflow: hidden;
+}
+
+header > * {
+	padding: .2em;
+}
+
+header .button {
+	display: inline-block;
+	background-color: black;
+	color: white;
+}
+	header .button:hover {
+		background-color: white;
+		color: black;
+	}
+
+header .title {
+	float: right;
 }
 
 #content {
 	padding: 2em;
+}
+
+footer {
+	font-size: .7em;
+	text-align: center;
 }
