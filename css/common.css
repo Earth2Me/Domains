@@ -21,12 +21,13 @@ header > * {
 	padding: .2em;
 }
 
-header .button {
+header .button, header.button:visited {
 	display: inline-block;
 	background-color: black;
 	color: white;
+	text-decoration: none;
 }
-	header .button:hover {
+	header .button:hover, header .button:active {
 		background-color: transparent;
 		color: black;
 	}
