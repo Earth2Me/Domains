@@ -1,0 +1,20 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 12pt;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	border-top: 5px solid black;
+	padding: .2em 2em;
+}
+
+#content {
+	padding: 2em;
+}

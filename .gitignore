@@ -1,0 +1,10 @@
+# Windows
+desktop.ini
+Thumbs.db
+
+# Mac
+.DS_Store
+__MACOSX/
+
+# Jekyll
+/_site/
