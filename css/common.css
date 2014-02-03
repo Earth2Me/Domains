@@ -14,6 +14,7 @@ header {
 	border-top: 10px solid black;
 	font-size: 1.5em;
 	overflow: hidden;
+	background-color: #ccc;
 }
 
 header > * {
@@ -26,7 +27,7 @@ header .button {
 	color: white;
 }
 	header .button:hover {
-		background-color: white;
+		background-color: transparent;
 		color: black;
 	}
 
