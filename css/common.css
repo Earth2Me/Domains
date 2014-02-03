@@ -36,6 +36,34 @@ header .title {
 	float: right;
 }
 
+section.meta {
+	padding: 2em;
+	padding-bottom: 0;
+}
+
+dl {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+	dl dt {
+		font-weight: bold;
+		float: left;
+		margin: 0;
+		padding: 0;
+		clear: left;
+	}
+		dl dt:after {
+			content: ':';
+		}
+
+	dl dd {
+		float: left;
+		margin: 0 0 0 .5em;
+		padding: 0;
+	}
+
 #content {
 	padding: 2em;
 }

@@ -7,7 +7,20 @@
 	</head>
 	<body>
 		{% include header.html %}
-		{{ content }}
+
+		<section class="meta">
+			<dl>
+				<dt>Title</dt>
+				<dd>{{ page.title }}
+				<dt>Author</dt>
+				<dd>{{ page.author }}</dd>
+				<dt>Date</dt>
+				<dd>{{ page.date | date_to_long_string }}
+			</dl>
+		</section>
+
+		<section id="content">{{ content }}</section>
+
 		{% include footer.html %}
 	</body>
 </html>

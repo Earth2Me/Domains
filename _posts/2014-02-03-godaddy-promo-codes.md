@@ -1,9 +1,12 @@
---
+---
 layout: post
-title: GoDaddy Promo Codes 2014-02-03
-category: godaddy promo codes
-tags: [godaddy, discounts]
---
+title: GoDaddy Promo Codes
+author: Paul Buonopane
+category: godaddy-promo-codes
+tags:
+- godaddy
+- discounts
+---
 # Active Codes #
 
 * 14SBGD12
