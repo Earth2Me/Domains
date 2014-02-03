@@ -2,7 +2,6 @@
 layout: page
 title: GoDaddy Promo Code Details
 ---
-
 {% include namepros-credit-godaddy.md %}
 
 <h1>Code Details</h1>
