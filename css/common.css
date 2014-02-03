@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	border-top: 5px solid black;
+	border-top: 10px solid black;
 	font-size: 1.5em;
 	overflow: hidden;
 }
