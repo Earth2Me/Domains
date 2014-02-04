@@ -1094,3 +1094,11 @@
     - "Payment Restrictions: No gift card, InStoreCredit, alipay, paypal"
     - "Limited to 10000 uses"
     - "Regional Restrictions may apply"
+- code: HELP
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  expires: "2014-07-01 02:00 Z"
+  details:
+    - "One use per: shopper, email or credit card"
+    - "Payment Restrictions: No gift card, InStoreCredit, alipay, paypal, ccavenue, eWallet"
+    - "Limited to 10000 uses"
+    - "Regional Restrictions may apply"
