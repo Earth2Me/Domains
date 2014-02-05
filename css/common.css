@@ -46,7 +46,6 @@ dl {
 	padding: 0;
 	margin: 0;
 }
-
 	dl dt {
 		font-weight: bold;
 		float: left;
@@ -75,4 +74,22 @@ dl {
 footer {
 	font-size: .7em;
 	text-align: center;
+}
+
+
+/*********************** PAGE-SPECIFIC ***********************/
+
+/* URI: /godaddy-codes-details.html */
+.code-details input {
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #3377ff;
+	border: 0 none;
+	outline: 0 none;
+	width: auto;
+	background: none transparent;
+}
+.code-details li {
+	margin-bottom: .6em;
 }

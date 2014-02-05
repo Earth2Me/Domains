@@ -4,35 +4,18 @@ title: GoDaddy Promo Code Details
 ---
 {% include namepros-credit-godaddy.md %}
 
-<h1>Code Details</h1>
-<style type="text/css">
-	.code {
-		font-family: monospace;
-		font-weight: bold;
-		font-size: 1.2em;
-		color: #3377ff;
-		border: 0 none;
-		outline: 0 none;
-		width: auto;
-		background: none transparent;
-	}
-</style>
-<ul>
-	{% for code in site.data.godaddy %}
-		<li style="margin-bottom: .6em">
-			<input class="code" type="text" onmouseover="this.focus();this.select();" onclick="this.select();" value="{{ code.code | xml_escape }}" readonly>
-			<dl>
-				<dt>Description</dt>
-				<dd>{{ code.description }}</dd>
-				<dt>Expires</dt>
-				<dd>{{ code.expires }}</dd>
-				{% if code.details %}
-					<dt>Details</dt>
-					{% for detail in code.details %}
-						<dd class="newline">{{ detail }}</dd>
-					{% endfor %}
-				{% endif %}
-			</dl>
-		</li>
-	{% endfor %}
-</ul>
+# Non-viral codes #
+
+These are the gems of GoDaddy codes, as they have few restrictions and work for renewals.
+
+Codes are ordered by the date they became effective in descending order: newer codes are on top.
+
+{% include code-details.html type='Order' %}
+
+# Viral codes #
+
+These codes are marked as `Viral` by GoDaddy.  They tend to have a lot more restrictions than non-viral codes.
+
+Codes are ordered by the date they became effective in descending order: newer codes are on top.
+
+{% include code-details.html type='Viral' %}
