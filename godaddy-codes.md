@@ -11,5 +11,5 @@ These promo codes are known to be working recently.  See the <a href="{{ site.ba
 
 Codes are ordered by the date they became effective in descending order: newer codes are on top.
 
-{% assign codes = site.data.godaddy | sort: 'starts' %}{% for code in site.data.godaddy | reversed %}
+{% assign codes = site.data.godaddy | sort: 'starts' %}{% for code in site.data.godaddy reversed %}
 * {{ code.code }}{% endfor %}
