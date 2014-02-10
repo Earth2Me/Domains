@@ -2,11 +2,6 @@
 layout: page
 title: GoDaddy Promo Code Details
 ---
-<dl>
-	<dt>Last updated</dt>
-	<dd>{{ site.time }}</dd>
-</dl>
-
 {% include namepros-credit-godaddy.md %}
 
 # Non-viral codes #

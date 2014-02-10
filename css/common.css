@@ -79,6 +79,7 @@ footer {
 
 /*********************** PAGE-SPECIFIC ***********************/
 
+
 /* URI: /godaddy-codes-details.html */
 .code-details input {
 	font-family: monospace;
@@ -92,4 +93,10 @@ footer {
 }
 .code-details li {
 	margin-bottom: .6em;
+}
+
+
+/* URI: /godaddy-codes-dead.html */
+.dead-codes code {
+	font-weight: bold;
 }
