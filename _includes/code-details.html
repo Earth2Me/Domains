@@ -4,7 +4,7 @@
 <p>Default permitted currencies: {{ currencies }}</p>
 <ul class="code-details">
 	{% for code in codes reversed %}
-		{% if code.type == include.type %}
+		{% if code.type == include.type and code.affiliate != true %}
 			<li id="code-{{ code.code | xml_escape }}">
 				<a href="{{ site.baseurl }}/godaddy-codes-details.html#code-{{ code.code | url_escape }}">#</a>
 				<input type="text" onmouseover="this.focus();this.select();" onclick="this.select();" value="{{ code.code | xml_escape }}" readonly="readonly" />
@@ -12,9 +12,9 @@
 					<dt>Description</dt>
 					<dd>{{ code.description | xml_escape }}</dd>
 					<dt>Starts</dt>
-					<dd>{{ code.starts | date: '%c' }}</dd>
+					<dd>{{ code.starts | date: '%F %R %Z' }}</dd>
 					<dt>Expires</dt>
-					<dd>{{ code.expires | date: '%c' }}</dd>
+					<dd>{{ code.expires | date: '%F %R %Z' }}</dd>
 					{% if code.details and code.details.size > 1 or code.details[0] != currencies_compare %}
 						<dt>Details</dt>
 						{% for detail in code.details %}
