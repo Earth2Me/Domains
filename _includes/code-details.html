@@ -1,10 +1,15 @@
 {% assign currencies = 'USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EGP, EUR, GBP, HKD, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NZD, PEN, PHP, PKR, PLN, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR' %}
 {% capture currencies_compare %}Currency: {{ currencies }}{% endcapture %}
 {% assign codes = site.data.godaddy | sort: 'starts' %}
+{% if include.affiliate == 'true' %}
+	{% assign affiliate = true %}
+{% else %}
+	{% assign affiliate = false %}
+{% endif %}
 <p>Default permitted currencies: {{ currencies }}</p>
 <ul class="code-details">
 	{% for code in codes reversed %}
-		{% if code.type == include.type and code.affiliate != true and site.time < code.expires and site.time >= code.starts %}
+		{% if code.type == include.type and code.affiliate == affiliate and site.time < code.expires and site.time >= code.starts %}
 			<li id="code-{{ code.code | xml_escape }}">
 				<a href="{{ site.baseurl }}/godaddy-codes-details.html#code-{{ code.code | url_escape }}">#</a>
 				<input type="text" onmouseover="this.focus();this.select();" onclick="this.select();" value="{{ code.code | xml_escape }}" readonly="readonly" />
