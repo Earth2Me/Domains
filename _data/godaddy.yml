@@ -1580,14 +1580,6 @@
   expires: 1396404000
   details:
     - "Currency: USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EGP, EUR, GBP, HKD, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NZD, PEN, PHP, PKR, PLN, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR"
-- code: WOWITSFREE
-  type: "Order"
-  description: "Save 35% on your order (Refer a Friend Promo)"
-  starts: 1352080800
-  expires: 1420164000
-  details:
-    - "Limited to 1 uses"
-    - "Currency: USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EGP, EUR, GBP, HKD, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NZD, PEN, PHP, PKR, PLN, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR"
 - code: TIMEOUT
   type: "Order"
   description: "30% off new products"
