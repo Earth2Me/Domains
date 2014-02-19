@@ -8001,3 +8001,27 @@
     - "Shopper must follow purchase path to apply code"
     - "Currency: USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EGP, EUR, GBP, HKD, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NZD, PEN, PHP, PKR, PLN, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR"
     - "Regional Restrictions may apply"
+- code: 295SHOW
+  type: "Viral"
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-16 02:00:00 Z
+  expires: 2014-07-02 02:00:00 Z
+  details:
+    - "One use per: shopper, email or credit card"
+    - "Payment Restrictions: No gift card, InStoreCredit, alipay, paypal, eWallet"
+    - "Limited to 10000 uses"
+    - "Currency: USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EGP, EUR, GBP, HKD, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NZD, PEN, PHP, PKR, PLN, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR"
+    - "Regional Restrictions may apply"
+- code: SHOW199
+  type: "Viral"
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-08-30 02:00:00 Z
+  expires: 2014-01-01 02:00:00 Z
+  details:
+    - "One use per: shopper, email or credit card"
+    - "Payment Restrictions: No gift card, InStoreCredit, alipay, paypal, eWallet"
+    - "Limited to 10000 uses"
+    - "Currency: USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EGP, EUR, GBP, HKD, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NZD, PEN, PHP, PKR, PLN, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR"
+    - "Regional Restrictions may apply"
