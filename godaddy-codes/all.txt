@@ -1,0 +1,15 @@
+---
+---
+#
+# Succeeded at some point
+#
+
+{% for code in site.data.godaddy %}{{ code.code }}
+{% endfor %}
+
+#
+# Never succeeded
+#
+
+{% for code in site.data.godaddydead %}{{ code }}
+{% endfor %}
