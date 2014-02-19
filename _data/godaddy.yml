@@ -3232,6 +3232,7 @@
     - "Payment Restrictions: No gift card, InStoreCredit, alipay, paypal, eWallet"
     - "Limited to 110000 uses"
     - "Currency: USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EGP, EUR, GBP, HKD, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NZD, PEN, PHP, PKR, PLN, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR"
+<<<<<<< HEAD
     - "Regional Restrictions may apply"
 - code: GOFDB055
   type: "Viral"
@@ -6845,3 +6846,6 @@
     - "Limited to 10000 uses"
     - "Currency: USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EGP, EUR, GBP, HKD, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NZD, PEN, PHP, PKR, PLN, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR"
     - "Regional Restrictions may apply"
+=======
+    - "Regional Restrictions may apply"
+>>>>>>> parent of c704e05... 299 new codes, thanks to Blake
