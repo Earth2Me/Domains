@@ -13,7 +13,7 @@ Default permitted currencies: {{ currencies }}
 
 <ul class="code-details">
 	{% for code in codes reversed %}
-		{% if code.type == include.type and code.affiliate == affiliate and site.time < code.expires and site.time >= code.starts %}
+		{% if code.type == include.type and code.affiliate == affiliate and site.time < code.expires and site.time >= code.starts and code.usable != false and code.active != false %}
 			<li id="code-{{ code.code | xml_escape }}">
 				<a href="#code-{{ code.code | url_escape }}">#</a>
 				<input type="text" onmouseover="this.focus();this.select();" onclick="this.select();" value="{{ code.code | xml_escape }}" readonly="readonly" />

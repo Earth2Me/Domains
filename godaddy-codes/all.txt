@@ -1,14 +1,14 @@
 ---
 ---
 #
-# Succeeded at some point
+# Hit
 #
 
 {% for code in site.data.godaddy %}{{ code.code }}
 {% endfor %}
 
 #
-# Never succeeded
+# Miss
 #
 
 {% for code in site.data.godaddydead %}{{ code }}

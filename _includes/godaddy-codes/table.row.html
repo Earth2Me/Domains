@@ -1,5 +1,5 @@
 {% assign code = include.code %}
-{% if site.time < code.expires and site.time >= code.starts %}
+{% if site.time < code.expires and site.time >= code.starts and code.usable != false and code.active != false %}
 	{% assign classes = '' %}
 	{% assign desc = code.description | downcase %}
 	{% if code.affiliate or desc contains 'first order' or desc contains 'new products' %}
