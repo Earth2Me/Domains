@@ -1,21 +1,24 @@
 ---
 layout: page
-title: Home
+title: Earth2Me Domain Tools
 ---
 
 <h1>Pages</h1>
 <ul>
-	<li><a href="{{ site.baseurl }}/godaddy-codes.html">GoDaddy Promo Code List</a></li>
-	<li><a href="{{ site.baseurl }}/godaddy-codes-details.html">GoDaddy Promo Code Details</a></li>
-	<li><a href="{{ site.baseurl }}/godaddy-codes-dead.html">List of Inactive GoDaddy Promo Codes</a></li>
+	<li><strong><a href="{{ site.baseurl }}/godaddy-codes/">GoDaddy Promo Codes: Table</a></strong></li>
+	<li><a href="{{ site.baseurl }}/godaddy-codes/details.html">GoDaddy Promo Code: Details</a></li>
+	<li><a href="{{ site.baseurl }}/godaddy-codes/inactive.html">GoDaddy Promo Codes: Inactive</a></li>
+	<li><a href="{{ site.baseurl }}/godaddy-codes/inactive.html">GoDaddy Promo Codes: All (active + inactive)</a></li>
 </ul>
 
-<h1>Posts</h1>
-<ul>
-	{% for post in site.posts %}
-		<li>
-			<span class="date">{{ post.date | date_to_string }}</span>
-			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-		</li>
-	{% endfor %}
-</ul>
+{% comment %}
+	<h1>Posts</h1>
+	<ul>
+		{% for post in site.posts %}
+			<li>
+				<span class="date">{{ post.date | date_to_string }}</span>
+				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+{% endcomment %}

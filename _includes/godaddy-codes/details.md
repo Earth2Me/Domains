@@ -6,12 +6,16 @@
 {% else %}
 	{% assign affiliate = false %}
 {% endif %}
-<p>Default permitted currencies: {{ currencies }}</p>
+
+Codes are ordered by the date they became effective in descending order: newer codes are on top.
+
+Default permitted currencies: {{ currencies }}
+
 <ul class="code-details">
 	{% for code in codes reversed %}
 		{% if code.type == include.type and code.affiliate == affiliate and site.time < code.expires and site.time >= code.starts %}
 			<li id="code-{{ code.code | xml_escape }}">
-				<a href="{{ site.baseurl }}/godaddy-codes-details.html#code-{{ code.code | url_escape }}">#</a>
+				<a href="#code-{{ code.code | url_escape }}">#</a>
 				<input type="text" onmouseover="this.focus();this.select();" onclick="this.select();" value="{{ code.code | xml_escape }}" readonly="readonly" />
 				<dl>
 					<dt>Description</dt>

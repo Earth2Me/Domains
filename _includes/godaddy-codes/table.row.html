@@ -1,0 +1,60 @@
+{% assign code = include.code %}
+{% if site.time < code.expires and site.time >= code.starts %}
+	{% assign classes = '' %}
+	{% assign desc = code.description | downcase %}
+	{% if code.affiliate or desc contains 'first order' or desc contains 'new products' %}
+		{% assign classes = 'new-only' %}
+	{% elsif desc contains 'renewal' %}
+		{% assign classes = 'renewal' %}
+	{% elsif desc contains 'new product' %}
+		{% assign classes = 'new-only' %}
+	{% elsif desc contains 'new ' %}
+	{% elsif desc contains 'registration' %}
+		{% assign dottld = desc | split: ' ' | last %}
+		{% assign tld = dottld | remove_first: '.' %}
+		{% assign testtld = tld | prepend: '.' %}
+		{% if dottld == testtld %}
+			{% case tld %}
+				{% when 'com' %}
+					{% comment %}Nothing, for now{% endcomment %}
+
+				{% else %}
+					{% assign classes = 'non-com' %}
+			{% endcase %}
+		{% endif %}
+	{% elsif desc contains '%' %}
+		{% assign classes = 'renewal' %}
+	{% endif %}
+	<tr class="{{ classes }}">
+		{% for column in site.data.config.godaddy.columns %}
+			<td>
+				{% case column %}
+					{% when 'index' %}
+						{% for icode in site.data.godaddy %}{% if code.code == icode.code %}
+							{{ forloop.index }}
+						{% endif %}{% endfor %}
+
+					{% when 'code' %}
+						<a href="{{ site.baseurl }}/godaddy-codes/details.html#code-{{ code.code | url_escape }}">
+							<code>{{ code.code | xml_escape }}</code>
+						</a>
+
+					{% when 'starts', 'expires' %}
+						{{ code[column] | date: site.data.config.date_format }}
+
+					{% when 'type' %}
+						{% if code.affiliate %}
+							Affiliate
+						{% else %}
+							{{ code.type | xml_escape }}
+						{% endif %}
+
+					{% else %}
+						{% if code[column] %}
+							{{ code[column] | xml_escape }}
+						{% endif %}
+				{% endcase %}
+			</td>
+		{% endfor %}
+	</tr>
+{% endif %}

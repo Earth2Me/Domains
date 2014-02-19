@@ -1,1 +1,9 @@
 date_format: '%F %R %Z'
+godaddy:
+  columns:
+    - index
+    - code
+    - starts
+    - expires
+    - type
+    - description

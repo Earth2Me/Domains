@@ -18,7 +18,7 @@ header {
 }
 
 header > * {
-	padding: .5em;
+	padding: .5em 1em;
 }
 
 header .button, header.button:visited {
@@ -93,11 +93,19 @@ footer {
 	text-align: center;
 }
 
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+
 
 /*********************** PAGE-SPECIFIC ***********************/
 
 
-/* URI: /godaddy-codes-details.html */
+/* URI: /godaddy-codes/details.html */
+
 .code-details input {
 	font-family: monospace;
 	font-weight: bold;
@@ -108,12 +116,27 @@ footer {
 	width: auto;
 	background: none transparent;
 }
+
 .code-details li {
 	margin-bottom: .6em;
 }
 
 
-/* URI: /godaddy-codes-dead.html */
+/* URI: /godaddy-codes/inactive.html */
+
 .dead-codes code {
 	font-weight: bold;
+}
+
+
+/* Code tables */
+
+.new-only {
+	color: #aaa;
+}
+.renewal {
+	color: #272;
+}
+.non-com {
+	color: #227;
 }
