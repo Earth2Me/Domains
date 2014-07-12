@@ -2,7 +2,7 @@
 {% if site.time < code.expires and site.time >= code.starts and code.usable != false and code.active != false %}
 	{% assign classes = '' %}
 	{% assign desc = code.description | downcase %}
-	{% if code.affiliate or desc contains 'first order' or desc contains 'new products' or desc contains 'new purchases' %}
+	{% if code.affiliate or code.newonly or desc contains 'first order' or desc contains 'new products' or desc contains 'new purchases' %}
 		{% assign classes = 'new-only' %}
 	{% elsif desc contains 'renewal' %}
 		{% assign classes = 'renewal' %}
@@ -26,35 +26,99 @@
 		{% assign classes = 'renewal' %}
 	{% endif %}
 	<tr class="{{ classes }}">
-		{% for column in site.data.config.godaddy.columns %}
-			<td>
-				{% case column %}
-					{% when 'index' %}
+		{% for column in site.data.config.godaddy.columns %}}
+			{% case column[0] %}
+				{% when 'index' %}
+					<td>
 						{% for icode in site.data.godaddy %}{% if code.code == icode.code %}
 							{{ forloop.index }}
 						{% endif %}{% endfor %}
+					</td>
 
-					{% when 'code' %}
-						<a href="{{ site.baseurl }}/godaddy-codes/details.html#code-{{ code.code | url_escape }}">
-							<code>{{ code.code | xml_escape }}</code>
-						</a>
+				{% when 'type' %}
 
-					{% when 'starts', 'expires' %}
-						{{ code[column] | date: site.data.config.date_format }}
+				{% else %}
+					{% if column[1].type %}
+						{% case column[1].type %}
+							{% when 'timestamp' %}
+								<td>{{ code[column[0]] | date: site.data.config.date_format }}</td>
 
-					{% when 'type' %}
-						{% if code.affiliate %}
-							Affiliate
-						{% else %}
-							{{ code.type | xml_escape }}
-						{% endif %}
+							{% when 'boolean-good' %}
+								{% if code[column[0]] and not column[1].reverse %}
+									<td class="good">Yes</td>
+								{% else %}
+									<td class="bad">No</td>
+								{% endif %}
+							{% endwhen %}
 
+							{% when 'boolean-bad' %}
+								{% if code[column[0]] and not column[1].reverse %}
+									<td class="bad">Yes</td>
+								{% else %}
+									<td class="good">No</td>
+								{% endif %}
+
+							{% when 'contains-good' %}
+								{% if code[column[1].keyfield] %}
+									{% if code[column[1].keyfield] contains code[column[0].value] and not column[1].reverse %}
+										<td class="good">Yes</td>
+									{% else %}
+										<td class="bad">No</td>
+									{% endif}
+								{% else %}
+									<td class="unknown">
+										{% if column[1].unknown %}
+											{{ column[1].unknown }}
+										{% else %}
+											?
+										{% endif %}
+									</td>
+								{% endif %}
+
+							{% when 'contains-bad' %}
+								{% if code[column[1].keyfield] %}
+									{% if code[column[1].keyfield] contains code[column[0].value] and not column[1].reverse %}
+										<td class="bad">Yes</td>
+									{% else %}
+										<td class="good">No</td>
+									{% endif}
+								{% else %}
+									<td class="unknown">
+										{% if column[1].unknown %}
+											{{ column[1].unknown }}
+										{% else %}
+											?
+										{% endif %}
+									</td>
+								{% endif %}
+
+							{% when 'details-link' %}
+								<td>
+									<a href="{{ site.baseurl }}/godaddy-codes/details.html#code-{{ code.code | url_escape }}">
+										<code>{{ code[column[0]] | xml_escape }}</code>
+									</a>
+								</td>
+
+							{% when 'or-affiliate' %}
+								<td>
+									{% if code.affiliate %}
+										Affiliate
+									{% else %}
+										{{ code[column[0]] | xml_escape }}
+									{% endif %}
+								</td>
+
+							{% else %}
+								<td>#ERR</td>
+						{% endcase %}
 					{% else %}
-						{% if code[column] %}
-							{{ code[column] | xml_escape }}
-						{% endif %}
-				{% endcase %}
-			</td>
+						<td>
+							{% if code[column[0]] %}
+								{{ code[column[0]] | xml_escape }}
+							{% endif %}
+						</td>
+					{% endif %}
+			{% endcase %}
 		{% endfor %}
 	</tr>
 {% endif %}

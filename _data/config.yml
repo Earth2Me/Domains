@@ -1,9 +1,61 @@
 date_format: '%F %R %Z'
 godaddy:
   columns:
-    - index
-    - code
-    - starts
-    - expires
-    - type
-    - description
+    index:
+      title: '#'
+      help: 'Approximate in which codes were added to this list.'
+      sortable: true
+    code:
+      title: Code
+      type: details-link
+      sortable: true
+    expires:
+      title: Expiration
+      help: 'Scheduled expiration date.  GoDaddy sometimes extends these.'
+      type: timestamp
+      sortable: true
+    oneuse:
+      title: 'Reuse'
+      help: 'Whether the code is reusable.  Non-reusable codes are limited to one use per user, credit card, and e-email.'
+      type: boolean-good
+      reverse: true
+    regional:
+      title: 'Regional'
+      help: 'Regional codes may be restricted to certain countries or other regions.'
+      type: boolean-bad
+    mustfollowpath:
+      title: 'Link Rqd'
+      help: 'You may need a special link to use these codes.  Inquire on the forums for details.'
+      type: boolean-bad
+    newshopper:
+      title: 'Only New'
+      help: 'Typically only available to new users who have not yet purchased a product of the same type on GoDaddy.'
+      type: boolean-bad
+    type:
+      title: Type
+      help: 'Viral, order, or affiliate.'
+      type: or-affiliate
+      sortable: true
+    description:
+      title: Description
+      sortable: true
+    usd:
+      title: USD
+      help: 'Works with currency: USD'
+      type: contains-good
+    aud:
+      title: AUD
+      help: 'Works with currency: AUD'
+      type: contains-good
+    cad:
+      title: CAD
+      help: 'Works with currency: CAD'
+      type: contains-good
+    iad:
+      title: IAD
+      help: 'Works with currency: IAD'
+      type: contains-good
+    usd:
+      title: GBP
+      help: 'Works with currency: GBP'
+      type: contains-good

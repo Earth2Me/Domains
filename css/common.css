@@ -100,6 +100,25 @@ footer {
 	font-style: italic;
 }
 
+td.good {
+	background-color: #dfd;
+	color: green;
+}
+td.bad {
+	background-color: #f9d7d7;
+	color: red;
+}
+td.unknown {
+	background-color: #ddd;
+	color: #555;
+}
+
+.help {
+	text-decoration: none;
+	border-bottom: 1px dotted black;
+	cursor: help;
+}
+
 
 /*********************** PAGE-SPECIFIC ***********************/
 
