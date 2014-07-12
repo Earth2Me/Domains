@@ -4,16 +4,4 @@ encoding: UTF-8
 baseurl: /Domains
 
 pygments: true
-
 markdown: kramdown
-kramdown:
-  use_coderay: true
-  smart_quotes: 'apos,apos,quot,quot'
-redcarpet:
-  extensions:
-    - tables
-    - no_intra_emphasis
-    - strikethrough
-    - lax_spacing
-    - superscript
-    - fenced_code_blocks
