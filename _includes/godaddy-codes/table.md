@@ -8,12 +8,12 @@ These GoDaddy promo codes are known to be working recently, though many have res
 
 Colored rows have been identified as likely having certaing characteristics.  These are automatically determined and not definitive.  In order of precedence:
 
-Color             | Meaning
------------------ | -------
-`Gray`{.new-only} | New customers only
-`Green`{.renewal} | Works with renewals
-`Blue`{.non-com}  | Specificaly for a TLD other than .com
-`Black`           | Other; typically for new registrations, sometimes transfers and bulk
+Color                              | Meaning
+---------------------------------- | -------
+<span class="new-only">Gray</span> | New customers only
+<span class="renewal">Green</span> | Works with renewals
+<span class="non-com">Blue</span>  | Specificaly for a TLD other than .com
+<span>Black</span>                 | Other; typically for new registrations, sometimes transfers and bulk
 
 Additionally, the $1.99 codes appear to be restricted to the United States.
 
