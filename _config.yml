@@ -5,7 +5,7 @@ baseurl: /Domains
 
 pygments: true
 
-markdown: redcarpet
+markdown: kramdown
 kramdown:
   use_coderay: true
   smart_quotes: 'apos,apos,quot,quot'
