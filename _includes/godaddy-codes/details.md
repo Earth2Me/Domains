@@ -1,5 +1,3 @@
-{% assign currencies = 'USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, DKK, EGP, EUR, GBP, HKD, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NZD, PEN, PHP, PKR, PLN, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR' %}
-{% capture currencies_compare %}Currency: {{ currencies }}{% endcapture %}
 {% assign codes = site.data.godaddy | sort: 'starts' %}
 {% if include.affiliate == 'true' %}
 	{% assign affiliate = true %}
@@ -8,8 +6,6 @@
 {% endif %}
 
 Codes are ordered by the date they became effective in descending order: newer codes are on top.
-
-Default permitted currencies: {{ currencies }}
 
 <ul class="code-details">
 	{% for code in codes reversed %}
@@ -20,12 +16,36 @@ Default permitted currencies: {{ currencies }}
 				<dl>
 					<dt>Description</dt>
 					<dd>{{ code.description | xml_escape }}</dd>
+
 					<dt>Starts</dt>
 					<dd>{{ code.starts | date: site.data.config.date_format }}</dd>
+
 					<dt>Expires</dt>
 					<dd>{{ code.expires | date: site.data.config.date_format }}</dd>
-					{% if code.details and code.details.size > 1 or code.details[0] != currencies_compare %}
-						<dt>Details</dt>
+
+					<dt>Type</dt>
+					<dd>{{ code.type | capitalize }}</dd>
+
+					<dt>Is Affiliate code</dt>
+					<dd>{% assign field = 'affiliate' %}{% if code[field] %}Yes{% else %}No{% endif %}</dd>
+
+					<dt>Single use</dt>
+					<dd>{% assign field = 'oneuse' %}{% if code[field] %}Yes{% else %}No{% endif %}</dd>
+
+					<dt>Regionally restricted</dt>
+					<dd>{% assign field = 'regional' %}{% if code[field] %}Yes{% else %}No{% endif %}</dd>
+
+					<dt>Special link required</dt>
+					<dd>{% assign field = 'mustfollowpath' %}{% if code[field] %}Yes{% else %}No{% endif %}</dd>
+
+					<dt>New customers only</dt>
+					<dd>{% assign field = 'newshopper' %}{% if code[field] %}Yes{% else %}No{% endif %}</dd>
+
+					<dt>Allowed currencies</dt>
+					<dd>{{ code.currencies | array_to_sentence_string | xml_escape }}</dd>
+
+					{% if code.details and code.details.size > 0 %}
+						<dt>Additional details</dt>
 						{% for detail in code.details %}
 							{% if detail != currencies_compare %}
 								<dd class="newline">{{ detail | xml_escape }}</dd>

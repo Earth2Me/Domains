@@ -94,7 +94,7 @@
 
 							{% when 'details-link' %}
 								<td>
-									<a href="{{ site.baseurl }}/godaddy-codes/details.html#code-{{ code.code | url_escape }}">
+									<a href="{{ site.baseurl }}/godaddy-codes/details.html#code-{{ code.code | uri_escape }}">
 										<code>{{ code[column[0]] | xml_escape }}</code>
 									</a>
 								</td>
