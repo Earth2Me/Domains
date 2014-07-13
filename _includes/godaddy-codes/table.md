@@ -26,11 +26,7 @@ Click a code to view its details.  Click a column header to change the sorting. 
 		<tr>
 			{% for column in site.data.config.godaddy.columns %}
 				<th>
-					{% if column[1].sortable and include.sort != column[0] %}
-						<a href="{{ site.baseurl }}/godaddy-codes/by-{{ column[0] }}.html" title="Sort by {{ column[1].title | xml_escape }}">{{ column[1].title | xml_escape }}</a>
-					{% else %}
-						{{ column[1].title | xml_escape }}
-					{% endif %}
+					{{ column[1].title | xml_escape }}
 
 					{% if column[1].help %}
 						<sup class="help" onclick="alert(this.title);" title="{{ column[1].help | xml_escape }}">?</sup>
