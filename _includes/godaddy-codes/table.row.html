@@ -29,11 +29,7 @@
 		{% for column in site.data.config.godaddy.columns %}}
 			{% case column[0] %}
 				{% when 'index' %}
-					<td>
-						{% for icode in site.data.godaddy %}{% if code.code == icode.code %}
-							{{ forloop.index }}
-						{% endif %}{% endfor %}
-					</td>
+					<td>{{ index }}</td>
 
 				{% when 'type' %}
 

@@ -47,11 +47,11 @@ Click a code to view its details.  Click a column header to change the sorting. 
 
 		{% if include.reversed %}
 			{% for code in codes reversed %}
-				{% include godaddy-codes/table.row.html code=code %}
+				{% include godaddy-codes/table.row.html index=forloop.index code=code %}
 			{% endfor %}
 		{% else %}
 			{% for code in codes %}
-				{% include godaddy-codes/table.row.html code=code %}
+				{% include godaddy-codes/table.row.html index=forloop.index code=code %}
 			{% endfor %}
 		{% endif %}
 	</tbody>
