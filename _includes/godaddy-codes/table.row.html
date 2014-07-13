@@ -2,12 +2,10 @@
 {% if site.time < code.expires and site.time >= code.starts and code.usable != false and code.active != false %}
 	{% assign classes = '' %}
 	{% assign desc = code.description | downcase %}
-	{% if code.affiliate or code.newonly or desc contains 'first order' or desc contains 'new products' or desc contains 'new purchases' %}
+	{% if code.affiliate or code.newonly %}
 		{% assign classes = 'new-only' %}
 	{% elsif desc contains 'renewal' %}
 		{% assign classes = 'renewal' %}
-	{% elsif desc contains 'new product' or desc contains 'new only' %}
-		{% assign classes = 'new-only' %}
 	{% elsif desc contains 'new ' %}
 	{% elsif desc contains 'registration' %}
 		{% assign dottld = desc | split: ' ' | last %}
