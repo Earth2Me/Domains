@@ -1,20 +1,18 @@
-date_format: '%F %R %Z'
+date_format: '%F'
+#date_format: '%F %R %Z'
 godaddy:
   columns:
     index:
       title: '#'
       help: 'Approximate in which codes were added to this list.'
       type: index
-      sortable: true
     code:
       title: Code
       type: details-link
-      sortable: true
     expires:
-      title: Expiration
+      title: Expires
       help: 'Scheduled expiration date.  GoDaddy sometimes extends these.'
       type: timestamp
-      sortable: true
     oneuse:
       title: 'Reuse'
       help: 'Whether the code is reusable.  Non-reusable codes are limited to one use per user, credit card, and e-email.'
@@ -29,34 +27,43 @@ godaddy:
       help: 'You may need a special link to use these codes.  Inquire on the forums for details.'
       type: boolean-bad
     newshopper:
-      title: 'Only New'
+      title: 'New Only'
       help: 'Typically only available to new users who have not yet purchased a product of the same type on GoDaddy.'
       type: boolean-bad
     type:
       title: Type
       help: 'Viral, order, or affiliate.'
       type: or-affiliate
-      sortable: true
     description:
       title: Description
-      sortable: true
+      type: text
     usd:
       title: USD
       help: 'Works with currency: USD'
       type: contains-good
+      searchfield: currencies
+      value: USD
     aud:
       title: AUD
       help: 'Works with currency: AUD'
       type: contains-good
+      searchfield: currencies
+      value: AUD
     cad:
       title: CAD
       help: 'Works with currency: CAD'
       type: contains-good
+      searchfield: currencies
+      value: CAD
     iad:
-      title: IAD
-      help: 'Works with currency: IAD'
+      title: INR
+      help: 'Works with currency: INR'
       type: contains-good
-    usd:
+      searchfield: currencies
+      value: INR
+    gbp:
       title: GBP
       help: 'Works with currency: GBP'
       type: contains-good
+      searchfield: currencies
+      value: GBP

@@ -17,24 +17,26 @@ header {
 	background-color: #ccc;
 }
 
-header > * {
-	padding: .5em 1em;
-}
-
-header .button, header.button:visited {
-	display: inline-block;
-	background-color: black;
-	color: white;
-	text-decoration: none;
-}
-	header .button:hover, header .button:active {
-		background-color: transparent;
-		color: black;
+	header > * {
+		padding: .5em 1em;
 	}
 
-header .title {
-	float: right;
-}
+	header a.button,
+	header a.button:visited {
+		display: inline-block;
+		background-color: black;
+		color: white;
+		text-decoration: none;
+	}
+		header a.button:hover,
+		header a.button:active {
+			background-color: transparent;
+			color: black;
+		}
+
+	header .title {
+		float: right;
+	}
 
 section.meta {
 	padding: 2em;
@@ -88,16 +90,24 @@ dl {
 				background-color: #ddd;
 			}
 
+td.index {
+	text-align: right;
+}
+td.bool,
+td.enum {
+	text-align: center;
+}
+
 footer {
 	font-size: .7em;
 	text-align: center;
 }
 
 a,
-a:link,
-table.sortable thead th {
-	color: #36d;
+table.sortable thead th .column-title {
 	text-decoration: underline;
+	color: #36d;
+	cursor: pointer;
 }
 	a:hover,
 	a:active {
@@ -106,10 +116,10 @@ table.sortable thead th {
 	a:visited {
 		color: #47d;
 	}
-	table.sortable thead th sup.help {
-		color: black;
-		text-decoration: none;
-	}
+table.sortable thead th.headerSortUp .column-title,
+table.sortable thead th.headerSortDown .column-title {
+	text-decoration: none;
+}
 
 
 .bold {
@@ -119,18 +129,13 @@ table.sortable thead th {
 	font-style: italic;
 }
 
-td.good {
-	background-color: #dfd;
-	color: green;
-}
-td.bad {
-	background-color: #f9d7d7;
-	color: red;
-}
-td.unknown {
-	background-color: #ddd;
-	color: #555;
-}
+.good { color: green }
+.bad { color: red }
+.unknown { color: #555 }
+
+td.good { background-color: #dfd }
+td.bad { background-color: #f9d7d7 }
+td.unknown { background-color: #ddd }
 
 .help {
 	text-decoration: none;

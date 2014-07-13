@@ -21,7 +21,7 @@ Codes are ordered by the date they became effective in descending order: newer c
 					<dd>{{ code.starts | date: site.data.config.date_format }}</dd>
 
 					<dt>Expires</dt>
-					<dd>{{ code.expires | date: site.data.config.date_format }}</dd>
+					<dd><time datetime="{{ code.expires | date: '%FT%R%Z' | xml_escape }}">{{ code.expires | date: site.data.config.date_format }}</time></dd>
 
 					<dt>Type</dt>
 					<dd>{{ code.type | capitalize }}</dd>
@@ -29,8 +29,13 @@ Codes are ordered by the date they became effective in descending order: newer c
 					<dt>Is Affiliate code</dt>
 					<dd>{% assign field = 'affiliate' %}{% if code[field] %}Yes{% else %}No{% endif %}</dd>
 
-					<dt>Single use</dt>
+					<dt>Single use (per user)</dt>
 					<dd>{% assign field = 'oneuse' %}{% if code[field] %}Yes{% else %}No{% endif %}</dd>
+
+					{% if code.maxuses %}
+						<dt>Max uses (global)</dt>
+						<dd>{{ code.maxuses }}</dd>
+					{% endif %}
 
 					<dt>Regionally restricted</dt>
 					<dd>{% assign field = 'regional' %}{% if code[field] %}Yes{% else %}No{% endif %}</dd>
