@@ -29,7 +29,7 @@ Click a code to view its details.  Click a column header to change the sorting. 
 					{{ column[1].title | xml_escape }}
 
 					{% if column[1].help %}
-						<sup class="help" onclick="alert(this.title);" title="{{ column[1].help | xml_escape }}">?</sup>
+						<sup class="help" title="{{ column[1].help | xml_escape }}">?</sup>
 					{% endif %}
 				</th>
 			{% endfor %}

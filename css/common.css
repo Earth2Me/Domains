@@ -93,6 +93,25 @@ footer {
 	text-align: center;
 }
 
+a,
+a:link,
+table.sortable thead th {
+	color: #36d;
+	text-decoration: underline;
+}
+	a:hover,
+	a:active {
+		text-decoration: none;
+	}
+	a:visited {
+		color: #47d;
+	}
+	table.sortable thead th sup.help {
+		color: black;
+		text-decoration: none;
+	}
+
+
 .bold {
 	font-weight: bold;
 }

@@ -1,4 +1,5 @@
-<dl><dt>Last updated</dt><dd>{{ site.time | date: site.data.config.date_format }}</dd></dl>
+Last update
+: {{ site.time | date: site.data.config.date_format }}
 
 # Where did these codes come from? #
 

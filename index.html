@@ -1,18 +1,22 @@
 ---
 layout: page
-title: Earth2Me Domain Tools
+title: Index
 ---
 {% comment %}This page CANNOT BE MARKDOWN.  GitHub Pages won't make it the index.{% endcomment %}
 
 <h1>Pages</h1>
 <ul>
-	<li><strong><a href="{{ site.baseurl }}/godaddy-codes/">GoDaddy Promo Codes: Table</a></strong></li>
-	<li><a href="{{ site.baseurl }}/godaddy-codes/details.html">GoDaddy Promo Code: Details</a></li>
-	<li><a href="{{ site.baseurl }}/godaddy-codes/inactive.html">GoDaddy Promo Codes: Inactive</a></li>
-	<li><a href="{{ site.baseurl }}/godaddy-codes/all.html">GoDaddy Promo Codes: All (active + inactive)</a></li>
+	<li>
+		<strong><a href="{{ site.baseurl }}/godaddy-codes/">GoDaddy Promo Codes</a></strong>
+		<ul>
+			<li><a href="{{ site.baseurl }}/godaddy-codes/details.html">GoDaddy Promo Code: Details</a></li>
+			<li><a href="{{ site.baseurl }}/godaddy-codes/inactive.html">GoDaddy Promo Codes: Inactive</a></li>
+			<li><a href="{{ site.baseurl }}/godaddy-codes/all.html">GoDaddy Promo Codes: All (active + inactive)</a></li>
+		</ul>
+	</li>
 </ul>
 
-{% comment %}
+{% if site.posts and site.posts.size > 0 %}
 	<h1>Posts</h1>
 	<ul>
 		{% for post in site.posts %}
@@ -22,4 +26,4 @@ title: Earth2Me Domain Tools
 			</li>
 		{% endfor %}
 	</ul>
-{% endcomment %}
+{% endif %}

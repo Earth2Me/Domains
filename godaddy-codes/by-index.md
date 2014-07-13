@@ -1,7 +1,5 @@
 ---
 layout: page
-title: 'GoDaddy Promo Codes: By Index'
-sort: index
-reversed: true
+title: Moved
 ---
-{% include godaddy-codes/table.md sort=page.sort reversed=page.reversed %}
+{% include godaddy-codes/moved.md %}
