@@ -4,6 +4,7 @@ godaddy:
     index:
       title: '#'
       help: 'Approximate in which codes were added to this list.'
+      type: index
       sortable: true
     code:
       title: Code
