@@ -7734,3 +7734,199 @@
   oneuse: true
   maxuses: 20000
   region: true
+- code: CAFBCOM1
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM1 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM10
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM10 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM11
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM11 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM12
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM12 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM14
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM14 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM15
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM15 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM16
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM16 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM17
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM17 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM18
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM18 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM6
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM6 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM7
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM7 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM8
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM8 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CAFBCOM9
+  active: true
+  usable: false
+  error: "Promo code CAFBCOM9 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: UKFBCOM18
+  active: true
+  usable: false
+  error: "Promo code UKFBCOM18 expired 7/2/2014."
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-12-19 03:00:00 Z
+  expires: 2014-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
