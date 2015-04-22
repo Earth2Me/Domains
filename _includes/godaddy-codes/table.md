@@ -25,13 +25,15 @@ Click a code to view its details.  Click a column header to change the sorting. 
 	<thead>
 		<tr>
 			{% for column in site.data.config.godaddy.columns %}
-				<th>
-					<span class="column-title">{{ column[1].title | xml_escape }}</span>
-
-					{% if column[1].help %}
-						<sup class="help" title="{{ column[1].help | xml_escape }}">?</sup>
-					{% endif %}
-				</th>
+				{% if not column[1].hidden %}
+					<th>
+						<span class="column-title">{{ column[1].title | xml_escape }}</span>
+	
+						{% if column[1].help %}
+							<sup class="help" title="{{ column[1].help | xml_escape }}">?</sup>
+						{% endif %}
+					</th>
+				{% endif %}
 			{% endfor %}
 		</tr>
 	</thead>
