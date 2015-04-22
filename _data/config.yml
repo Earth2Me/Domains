@@ -30,10 +30,11 @@ godaddy:
       title: 'New Only'
       help: 'Typically only available to new users who have not yet purchased a product of the same type on GoDaddy.'
       type: boolean-bad
-      or: affiliate
+      or: [affiliate]
     type:
       title: Type
       help: 'Viral, order, or affiliate.'
+      # or-affiliate means that if affiliate is set, it will output "Affiliate" instead of the value of this column.
       type: or-affiliate
     description:
       title: Description
