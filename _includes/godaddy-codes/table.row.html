@@ -28,16 +28,18 @@
 			{% assign column_info = column[1] %}
 			{% unless column_info.hidden %}
 				{% assign value = code[column_id] %}
-				{% if code.or and value != true%}
+				{% if code.or and value != true %}
 					{% for c in code.or %}
-						{% if value != true and code[c] %}
+						{% assign c1 = c[1] %}
+						{% if value != true and code[c1] %}
 							{% assign value = true %}
 						{% endif %}
 					{% endfor %}
 				{% endif %}
 				{% if code.not and value %}
 					{% for c in code.not %}
-						{% if value and code[c] %}
+						{% assign c1 = c[1] %}
+						{% if value and code[c1] %}
 							{% assign value = false %}
 						{% endif %}
 					{% endfor %}
