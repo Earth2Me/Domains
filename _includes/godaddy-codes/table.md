@@ -25,7 +25,7 @@ Click a code to view its details.  Click a column header to change the sorting. 
 	<thead>
 		<tr>
 			{% for column in site.data.config.godaddy.columns %}
-				{% if not column[1].hidden %}
+				{% unless column[1].hidden %}
 					<th>
 						<span class="column-title">{{ column[1].title | xml_escape }}</span>
 	
