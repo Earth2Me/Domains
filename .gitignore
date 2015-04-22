@@ -8,3 +8,4 @@ __MACOSX/
 
 # Jekyll
 /_site/
+Gemfile.lock
