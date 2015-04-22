@@ -1,3 +1,1020 @@
+- code: 149COM
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$0.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-08-19 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199BANTER
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199COMEDY
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199FORK
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199GAMES
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199HAPPY
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199KRENN
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199LUV
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-04-30 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199MIXTAPE
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199MMA
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199PHIL
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199SCAM
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199SCHOOL
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 199ZANY
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-03 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 295LUV
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-03-05 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 30000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: 99WORD
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$0.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2015-01-07 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: AUCTION12
+  active: true
+  usable: true
+  error: null
+  type: Product
+  affiliate: false
+  description: "Podcast_50% off new auction membership"
+  starts: 2013-06-21 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  currencies: [ALL]
+- code: BANTER295
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-01-09 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 260000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CJC25SSL
+  active: true
+  usable: true
+  error: null
+  type: Product
+  affiliate: false
+  description: "25% off Standard SSL Certifcates"
+  starts: 2013-06-12 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+- code: CJC28OFF1
+  active: true
+  usable: true
+  error: null
+  type: Order
+  affiliate: false
+  description: "28% Off New Products"
+  starts: 2013-06-21 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+- code: CJC30C
+  active: true
+  usable: true
+  error: null
+  type: Order
+  affiliate: false
+  description: "30% off New Products"
+  starts: 2013-06-21 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+- code: CJC99R
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.49 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-08-19 03:00:00 Z
+  expires: 2015-07-09 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 280000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CJCCOUP149
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.49 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-08-19 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 10000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CJCCOUP99
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$0.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2015-01-07 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CJCRMN2CP
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$2.00 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-08 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 90000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: CJCRMN30A
+  active: true
+  usable: true
+  error: null
+  type: Order
+  affiliate: false
+  description: "30% off new products"
+  starts: 2013-06-21 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+- code: CJCRMN33
+  active: true
+  usable: true
+  error: null
+  type: Order
+  affiliate: false
+  description: "33% off new products"
+  starts: 2013-06-21 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+- code: CJCRMN99U
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$0.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2015-01-07 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: COMEDY
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-02-08 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 30000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: COMEDY295
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-01-09 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 260000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: FB99USMR05
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$0.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-12-25 03:00:00 Z
+  expires: 2015-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: FORK295
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-01-09 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 260000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GD5435X
+  active: true
+  usable: true
+  error: null
+  type: Order
+  affiliate: false
+  description: "39% off new orders"
+  starts: 2015-04-13 03:00:00 Z
+  expires: 2015-04-28 03:00:00 Z
+  yardrequired: false
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+- code: GD5436D
+  active: true
+  usable: true
+  error: null
+  type: Order
+  affiliate: false
+  description: "35% off order of $100 or more - new purchases only"
+  starts: 2015-04-14 03:00:00 Z
+  expires: 2015-05-04 03:00:00 Z
+  yardrequired: false
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+- code: GD5497A
+  active: true
+  usable: false
+  error: "Promo code GD5497A expired 4/20/2015."
+  type: Order
+  affiliate: false
+  description: "40% off new only"
+  starts: 2015-04-14 03:00:00 Z
+  expires: 2015-04-20 03:00:00 Z
+  yardrequired: false
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+- code: GD5497E
+  active: true
+  usable: false
+  error: "Promo code GD5497E expired 4/20/2015."
+  type: Order
+  affiliate: false
+  description: "40% off new only"
+  starts: 2015-04-14 03:00:00 Z
+  expires: 2015-04-20 03:00:00 Z
+  yardrequired: false
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+- code: GEEK149
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$0.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-08-19 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GEEK349
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$3.49 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-02-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 100000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GOFLUK04
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.49 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-12-17 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 800000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GPPT02K500
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$0.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2015-01-07 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNIC001
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNIC100
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNIC200
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNIC300
+  active: true
+  usable: false
+  error: "Promo code GTNIC300 expired 1/7/2015."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-10-16 03:00:00 Z
+  expires: 2015-01-07 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM001
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM002
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM003
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM004
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM005
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM006
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM007
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM008
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM009
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM010
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM020
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM030
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM036
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-26 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM037
+  active: true
+  usable: false
+  error: "Promo code GTNICRM037 expired 1/7/2015."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-10-16 03:00:00 Z
+  expires: 2015-01-07 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM040
+  active: true
+  usable: false
+  error: "Promo code GTNICRM040 expired 1/7/2015."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-10-16 03:00:00 Z
+  expires: 2015-01-07 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNICRM050
+  active: true
+  usable: false
+  error: "Promo code GTNICRM050 expired 1/7/2015."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-10-16 03:00:00 Z
+  expires: 2015-01-07 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNIVT01
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-17 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNIVT10
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-17 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNIVT20
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-17 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNIVT30
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-17 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNIVT40
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-17 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNIVT50
+  active: true
+  usable: false
+  error: "Viral promo code - code cannot be applied."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2013-06-17 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: GTNIVT60
+  active: true
+  usable: false
+  error: "Promo code GTNIVT60 expired 12/31/2014."
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-05-19 03:00:00 Z
+  expires: 2014-12-31 03:00:00 Z
+  yardrequired: true
+  oneuse: true
+  mustfollowpath: true
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: HAPPY295
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$2.95 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-01-09 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 260000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: HITCHED149
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.49 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-09-02 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 20000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: MMA199
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-04-30 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: MMO199
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$0.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-07-08 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 975000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: MOXIE30
+  active: false
+  usable: false
+  error: "Promo code MOXIE30 expired 2/25/2015."
+  type: Order
+  affiliate: false
+  description: "30% off New Product orders"
+  starts: 2013-06-21 03:00:00 Z
+  expires: 2015-02-25 03:00:00 Z
+  yardrequired: false
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+- code: ROOSTER199
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$1.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-04-30 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: TDEFR99
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$0.81 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-08-19 03:00:00 Z
+  expires: 2015-07-11 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
+- code: TE99COMP
+  active: true
+  usable: true
+  error: null
+  type: Viral
+  affiliate: false
+  description: "$0.99 for Domain Registration, Bulk Registrations, Domain Transfer, Bulk Transfer on .COM"
+  starts: 2014-12-25 03:00:00 Z
+  expires: 2015-07-02 03:00:00 Z
+  yardrequired: false
+  oneuse: true
+  maxuses: 1000000
+  currencies: [USD, AED, ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EGP, EUR, GBP, HKD, HUF, IDR, ILS, INR, JPY, KRW, MAD, MXN, MYR, NOK, NZD, PEN, PHP, PKR, PLN, RON, RUB, SAR, SEK, SGD, THB, TRY, TWD, UAH, UYU, VEF, VND, ZAR]
+  regional: true
 - code: 14SBGD12
   active: true
   usable: true
