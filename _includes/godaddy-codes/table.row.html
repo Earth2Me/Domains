@@ -4,6 +4,9 @@
 	{% assign desc = code.description | downcase %}
 	{% if code.affiliate or code.newshopper or desc contains 'new products' %}
 		{% assign classes = 'new-only' %}
+		{% if code.affiliate %}
+			{% assign code.newshopper = true %}
+		{% endif %}
 	{% elsif desc contains 'renewal' %}
 		{% assign classes = 'renewal' %}
 	{% elsif desc contains 'new ' %}
