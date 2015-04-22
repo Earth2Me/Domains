@@ -152,7 +152,7 @@
 					{% else %}
 						<td title="{{ column_info.type | xml_escape}}: Unknown type">!!ERROR!!</td>
 				{% endcase %}
-			{% endif %}
+			{% endunless %}
 		{% endfor %}
 	</tr>
 {% endif %}
