@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'GoDaddy Promo Codes'
-sort: index
-reversed: true
+sort: expires
+reversed: false
 ---
 {% include godaddy-codes/table.md sort=page.sort reversed=page.reversed %}
