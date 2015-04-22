@@ -44,15 +44,15 @@
 			{% endif %}
 			{% case column_info.type %}
 				{% when 'text' %}
-					{% if code[column_id] %}
-						<td>{{ code[column_id] | xml_escape }}</td>
+					{% if value %}
+						<td>{{ value | xml_escape }}</td>
 					{% else %}
 						<td title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
 					{% endif %}
 
 				{% when 'enum' %}
-					{% if code[column_id] %}
-						<td class="enum">{{ code[column_id] | xml_escape }}</td>
+					{% if value %}
+						<td class="enum">{{ value | xml_escape }}</td>
 					{% else %}
 						<td class="enum" title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
 					{% endif %}
@@ -61,10 +61,10 @@
 					<td class="index">{{ include.index }}</td>
 
 				{% when 'details-link' %}
-					{% if code[column_id] %}
+					{% if value %}
 						<td>
 							<a href="{{ site.baseurl }}/godaddy-codes/details.html#code-{{ code.code | uri_escape }}">
-								<code>{{ code[column_id] | xml_escape }}</code>
+								<code>{{ value | xml_escape }}</code>
 							</a>
 						</td>
 					{% else %}
@@ -72,21 +72,21 @@
 					{% endif %}
 
 				{% when 'timestamp' %}
-					{% if code[column_id] %}
-						<td><time datetime="{{ code[column_id] | date: '%FT%R%Z' | xml_escape }}">{{ code[column_id] | date: site.data.config.date_format }}</time></td>
+					{% if value %}
+						<td><time datetime="{{ value | date: '%FT%R%Z' | xml_escape }}">{{ value | date: site.data.config.date_format }}</time></td>
 					{% else %}
 						<td title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
 					{% endif %}
 
 				{% when 'boolean-good' %}
 					{% if column_info.reverse %}
-						{% if code[column_id] %}
+						{% if value %}
 							<td class="bool bad">No</td>
 						{% else %}
 							<td class="bool good">Yes</td>
 						{% endif %}
 					{% else %}
-						{% if code[column_id] %}
+						{% if value %}
 							<td class="bool good">Yes</td>
 						{% else %}
 							<td class="bool bad">No</td>
@@ -95,13 +95,13 @@
 
 				{% when 'boolean-bad' %}
 					{% if column_info.reverse %}
-						{% if code[column_id] %}
+						{% if value %}
 							<td class="bool good">No</td>
 						{% else %}
 							<td class="bool bad">Yes</td>
 						{% endif %}
 					{% else %}
-						{% if code[column_id] %}
+						{% if value %}
 							<td class="bool bad">Yes</td>
 						{% else %}
 							<td class="bool good">No</td>
@@ -142,8 +142,8 @@
 					<td class="enum">
 						{% if code.affiliate %}
 							Affiliate
-						{% elsif code[column_id] %}
-							{{ code[column_id] | xml_escape }}
+						{% elsif value %}
+							{{ value | xml_escape }}
 						{% else %}
 							<td class="enum" title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
 						{% endif %}
