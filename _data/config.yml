@@ -4,7 +4,7 @@ godaddy:
   columns:
     index:
       title: '#'
-      help: 'Approximate in which codes were added to this list.'
+      help: "This field isn't particularly useful because the order changes frequently."
       type: index
     code:
       title: Code
