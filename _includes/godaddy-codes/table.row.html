@@ -26,19 +26,19 @@
 		{% for column in site.data.config.godaddy.columns %}
 			{% assign column_id = column[0] %}
 			{% assign column_info = column[1] %}
-			{% if not column_info.hidden %}
+			{% unless column_info.hidden %}
 				{% assign value = code[column_id] %}
-				{% if code.or and not value %}
+				{% if code.or and value != true%}
 					{% for c in code.or %}
-						{% if not value and code[c] %}
-							{% assign value = code[c] %}
+						{% if value != true and code[c] %}
+							{% assign value = true %}
 						{% endif %}
 					{% endfor %}
 				{% endif %}
 				{% if code.not and value %}
 					{% for c in code.not %}
 						{% if value and code[c] %}
-							{% assign value = not code[c] %}
+							{% assign value = false %}
 						{% endif %}
 					{% endfor %}
 				{% endif %}
