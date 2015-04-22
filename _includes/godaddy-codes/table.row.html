@@ -27,131 +27,133 @@
 		{% for column in site.data.config.godaddy.columns %}
 			{% assign column_id = column[0] %}
 			{% assign column_info = column[1] %}
-			{% assign value = code[column_id] %}
-			{% if code.or and not value %}
-				{% for c in code.or %}
-					{% if not value and code[c] %}
-						{% assign value = code[c] %}
-					{% endif %}
-				{% endfor %}
-			{% endif %}
-			{% if code.not and value %}
-				{% for c in code.not %}
-					{% if value and code[c] %}
-						{% assign value = not code[c] %}
-					{% endif %}
-				{% endfor %}
-			{% endif %}
-			{% case column_info.type %}
-				{% when 'text' %}
-					{% if value %}
-						<td>{{ value | xml_escape }}</td>
-					{% else %}
-						<td title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
-					{% endif %}
-
-				{% when 'enum' %}
-					{% if value %}
-						<td class="enum">{{ value | xml_escape }}</td>
-					{% else %}
-						<td class="enum" title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
-					{% endif %}
-
-				{% when 'index' %}
-					<td class="index">{{ include.index }}</td>
-
-				{% when 'details-link' %}
-					{% if value %}
-						<td>
-							<a href="{{ site.baseurl }}/godaddy-codes/details.html#code-{{ code.code | uri_escape }}">
-								<code>{{ value | xml_escape }}</code>
-							</a>
-						</td>
-					{% else %}
-						<td title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
-					{% endif %}
-
-				{% when 'timestamp' %}
-					{% if value %}
-						<td><time datetime="{{ value | date: '%FT%R%Z' | xml_escape }}">{{ value | date: site.data.config.date_format }}</time></td>
-					{% else %}
-						<td title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
-					{% endif %}
-
-				{% when 'boolean-good' %}
-					{% if column_info.reverse %}
+			{% if not column_info.hidden %}
+				{% assign value = code[column_id] %}
+				{% if code.or and not value %}
+					{% for c in code.or %}
+						{% if not value and code[c] %}
+							{% assign value = code[c] %}
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+				{% if code.not and value %}
+					{% for c in code.not %}
+						{% if value and code[c] %}
+							{% assign value = not code[c] %}
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+				{% case column_info.type %}
+					{% when 'text' %}
 						{% if value %}
-							<td class="bool bad">No</td>
+							<td>{{ value | xml_escape }}</td>
 						{% else %}
-							<td class="bool good">Yes</td>
+							<td title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
 						{% endif %}
-					{% else %}
+
+					{% when 'enum' %}
 						{% if value %}
-							<td class="bool good">Yes</td>
-						{% else %}
-							<td class="bool bad">No</td>
-						{% endif %}
-					{% endif %}
-
-				{% when 'boolean-bad' %}
-					{% if column_info.reverse %}
-						{% if value %}
-							<td class="bool good">No</td>
-						{% else %}
-							<td class="bool bad">Yes</td>
-						{% endif %}
-					{% else %}
-						{% if value %}
-							<td class="bool bad">Yes</td>
-						{% else %}
-							<td class="bool good">No</td>
-						{% endif %}
-					{% endif %}
-
-				{% when 'contains-good' %}
-					{% if column_info.searchfield and column_info.value %}
-						{% if code[column_info.searchfield] %}
-							{% if code[column_info.searchfield] contains column_info.value %}
-								{% if column_info.reverse %}<td class="bool bad">No</td>{% else %}<td class="bool good">Yes</td>{% endif %}
-							{% else %}
-								{% if column_info.reverse %}<td class="bool good">Yes</td>{% else %}<td class="bool bad">No</td>{% endif %}
-							{% endif %}
-						{% else %}
-							<td class="bool unknown">{% if column_info.unknown %}{{ column_info.unknown }}{% else %}N/A{% endif %}</td>
-						{% endif %}
-					{% else %}
-						<td class="bool unknown" title="{{ column_info.type | xml_escape}}: Missing searchfield or value">!!ERROR!!</td>
-					{% endif %}
-
-				{% when 'contains-bad' %}
-					{% if column_info.searchfield and column_info.value %}
-						{% if code[column_info.searchfield] %}
-							{% if code[column_info.searchfield] contains column_info.value or column_info.reverse %}
-								{% if column_info.reverse %}<td class="bool good">No</td>{% else %}<td class="bool bad">Yes</td>{% endif %}
-							{% else %}
-								{% if column_info.reverse %}<td class="bool bad">Yes</td>{% else %}<td class="bool good">No</td>{% endif %}
-							{% endif %}
-						{% else %}
-							<td class="bool unknown">{% if column_info.unknown %}{{ column_info.unknown }}{% else %}N/A{% endif %}</td>
-						{% endif %}
-					{% else %}
-						<td class="bool unknown" title="{{ column_info.type | xml_escape}}: Missing searchfield or value">!!ERROR!!</td>
-					{% endif %}
-
-				{% when 'or-affiliate' %}
-					<td class="enum">
-						{% if code.affiliate %}
-							Affiliate
-						{% elsif value %}
-							{{ value | xml_escape }}
+							<td class="enum">{{ value | xml_escape }}</td>
 						{% else %}
 							<td class="enum" title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
 						{% endif %}
-					</td>
 
-				{% else %}
-					<td title="{{ column_info.type | xml_escape}}: Unknown type">!!ERROR!!</td>
-			{% endcase %}
+					{% when 'index' %}
+						<td class="index">{{ include.index }}</td>
+
+					{% when 'details-link' %}
+						{% if value %}
+							<td>
+								<a href="{{ site.baseurl }}/godaddy-codes/details.html#code-{{ code.code | uri_escape }}">
+									<code>{{ value | xml_escape }}</code>
+								</a>
+							</td>
+						{% else %}
+							<td title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
+						{% endif %}
+
+					{% when 'timestamp' %}
+						{% if value %}
+							<td><time datetime="{{ value | date: '%FT%R%Z' | xml_escape }}">{{ value | date: site.data.config.date_format }}</time></td>
+						{% else %}
+							<td title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
+						{% endif %}
+
+					{% when 'boolean-good' %}
+						{% if column_info.reverse %}
+							{% if value %}
+								<td class="bool bad">No</td>
+							{% else %}
+								<td class="bool good">Yes</td>
+							{% endif %}
+						{% else %}
+							{% if value %}
+								<td class="bool good">Yes</td>
+							{% else %}
+								<td class="bool bad">No</td>
+							{% endif %}
+						{% endif %}
+
+					{% when 'boolean-bad' %}
+						{% if column_info.reverse %}
+							{% if value %}
+								<td class="bool good">No</td>
+							{% else %}
+								<td class="bool bad">Yes</td>
+							{% endif %}
+						{% else %}
+							{% if value %}
+								<td class="bool bad">Yes</td>
+							{% else %}
+								<td class="bool good">No</td>
+							{% endif %}
+						{% endif %}
+
+					{% when 'contains-good' %}
+						{% if column_info.searchfield and column_info.value %}
+							{% if code[column_info.searchfield] %}
+								{% if code[column_info.searchfield] contains column_info.value %}
+									{% if column_info.reverse %}<td class="bool bad">No</td>{% else %}<td class="bool good">Yes</td>{% endif %}
+								{% else %}
+									{% if column_info.reverse %}<td class="bool good">Yes</td>{% else %}<td class="bool bad">No</td>{% endif %}
+								{% endif %}
+							{% else %}
+								<td class="bool unknown">{% if column_info.unknown %}{{ column_info.unknown }}{% else %}N/A{% endif %}</td>
+							{% endif %}
+						{% else %}
+							<td class="bool unknown" title="{{ column_info.type | xml_escape}}: Missing searchfield or value">!!ERROR!!</td>
+						{% endif %}
+
+					{% when 'contains-bad' %}
+						{% if column_info.searchfield and column_info.value %}
+							{% if code[column_info.searchfield] %}
+								{% if code[column_info.searchfield] contains column_info.value or column_info.reverse %}
+									{% if column_info.reverse %}<td class="bool good">No</td>{% else %}<td class="bool bad">Yes</td>{% endif %}
+								{% else %}
+									{% if column_info.reverse %}<td class="bool bad">Yes</td>{% else %}<td class="bool good">No</td>{% endif %}
+								{% endif %}
+							{% else %}
+								<td class="bool unknown">{% if column_info.unknown %}{{ column_info.unknown }}{% else %}N/A{% endif %}</td>
+							{% endif %}
+						{% else %}
+							<td class="bool unknown" title="{{ column_info.type | xml_escape}}: Missing searchfield or value">!!ERROR!!</td>
+						{% endif %}
+
+					{% when 'or-affiliate' %}
+						<td class="enum">
+							{% if code.affiliate %}
+								Affiliate
+							{% elsif value %}
+								{{ value | xml_escape }}
+							{% else %}
+								<td class="enum" title="{{ column_info.type | xml_escape}}: Missing {{ column_id | xml_escape }}">!!ERROR!!</td>
+							{% endif %}
+						</td>
+
+					{% else %}
+						<td title="{{ column_info.type | xml_escape}}: Unknown type">!!ERROR!!</td>
+				{% endcase %}
+			{% endif %}
 		{% endfor %}
 	</tr>
 {% endif %}
