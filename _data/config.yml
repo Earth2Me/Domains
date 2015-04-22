@@ -3,6 +3,7 @@ date_format: '%F'
 godaddy:
   columns:
     index:
+      hidden: true
       title: '#'
       help: "This field isn't particularly useful because the order changes frequently."
       type: index
