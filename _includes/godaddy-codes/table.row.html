@@ -4,9 +4,6 @@
 	{% assign desc = code.description | downcase %}
 	{% if code.affiliate or code.newshopper or desc contains 'new products' %}
 		{% assign classes = 'new-only' %}
-		{% if code.affiliate %}
-			{% assign code.newshopper = true %}
-		{% endif %}
 	{% elsif desc contains 'renewal' %}
 		{% assign classes = 'renewal' %}
 	{% elsif desc contains 'new ' %}
@@ -30,6 +27,21 @@
 		{% for column in site.data.config.godaddy.columns %}
 			{% assign column_id = column[0] %}
 			{% assign column_info = column[1] %}
+			{% assign value = code[column_id] %}
+			{% if code.or and not value %}
+				{% for c in code.or %}
+					{% if not value and code[c] %}
+						{% assign value = code[c] %}
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+			{% if code.not and value %}
+				{% for c in code.not %}
+					{% if value and code[c] %}
+						{% assign value = not code[c] %}
+					{% endif %}
+				{% endfor %}
+			{% endif %}
 			{% case column_info.type %}
 				{% when 'text' %}
 					{% if code[column_id] %}
