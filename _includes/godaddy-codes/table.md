@@ -33,7 +33,7 @@ Click a code to view its details.  Click a column header to change the sorting. 
 							<sup class="help" title="{{ column[1].help | xml_escape }}">?</sup>
 						{% endif %}
 					</th>
-				{% endif %}
+				{% endunless %}
 			{% endfor %}
 		</tr>
 	</thead>
