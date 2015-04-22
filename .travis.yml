@@ -3,3 +3,5 @@ script: 'bundle exec jekyll build'
 branches:
   only:
     - gh-pages
+rvm:
+  - 2.2.1
