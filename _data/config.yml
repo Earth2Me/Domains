@@ -30,6 +30,7 @@ godaddy:
       title: 'New Only'
       help: 'Typically only available to new users who have not yet purchased a product of the same type on GoDaddy.'
       type: boolean-bad
+      or: affiliate
     type:
       title: Type
       help: 'Viral, order, or affiliate.'
